@@ -86,10 +86,10 @@ It integrates InstructBLIP, CLIP, and large language models (LLMs) to produce hu
 
 You can find the fine-tuned FoodGen models at the following links:
 
--  **[Experiment 1](https://huggingface.co/AmalSaqib/instructblip_finetuned_last2_decoder_llama_final)** 
-- **[Experiment 2](https://huggingface.co/AmalSaqib/instructblip_finetuned_last2_decoder_final)** 
-- **[Experiment 3](https://huggingface.co/AmalSaqib/instructblip_finetuned_balanced_subset)**
-- **[Experiment 4](https://huggingface.co/AmalSaqib/instructblip_finetuned_foodcap_fulltrainset_last6decoder)**
+-  **[Experiment 1](https://huggingface.co/dnkmd/experiment1)** 
+- **[Experiment 2](https://huggingface.co/dnkmd/experiment2)** 
+- **[Experiment 3](https://huggingface.co/dnkmd/experiment3)**
+- **[Experiment 4](https://huggingface.co/dnkmd/experiment4)**
 
 > These include all final InstructBLIP-based models fine-tuned as part of the project.
 
