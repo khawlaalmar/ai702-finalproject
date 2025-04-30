@@ -14,11 +14,11 @@
 # from datasets import load_dataset
 
 # # === CONFIG ===
-# output_json = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_food500_test.json"
-# output_csv = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_food500_test.csv"
-# model_path = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/instructblip_finetuned_last2_decoder_final"
-# checkpoint_json = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_checkpoint_food500_test.json"
-# checkpoint_csv = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_checkpoint_food500_test.csv"
+# output_json = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_food500_test.json"
+# output_csv = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_food500_test.csv"
+# model_path = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/instructblip_finetuned_last2_decoder_final"
+# checkpoint_json = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_checkpoint_food500_test.json"
+# checkpoint_csv = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_1_llama/captions_finetuned_final_checkpoint_food500_test.csv"
 
 # torch.cuda.empty_cache()
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
