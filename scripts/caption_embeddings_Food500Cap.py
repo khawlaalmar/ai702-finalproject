@@ -7,7 +7,7 @@ from tqdm import tqdm
 # === CONFIG ===
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model_name = "ViT-L/14"
-output_path = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/food500cap_test_image_embeddings.pt"
+output_path = "/home/Downloads/CV703_FoodGen_Project/food500cap_test_image_embeddings.pt"
 batch_size = 32  # Reduce memory pressure
 
 # === Load CLIP model ===
