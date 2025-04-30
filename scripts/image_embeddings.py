@@ -5,7 +5,7 @@ from PIL import Image
 from tqdm import tqdm
 
 # === CONFIG ===
-image_root = "/home/amal.saqib/Downloads/CV703_Project/food-101/food-101/food-101/images"  # <-- update this
+image_root = "/home/Downloads/CV703_Project/food-101/food-101/food-101/images"  # <-- update this
 image_list_file = "synced_fixed_image_list.txt"
 output_file = "image_embeddings.pt"
 model_name = "ViT-L/14"
