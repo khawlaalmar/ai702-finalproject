@@ -13,7 +13,7 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
 
 # === CONFIG ===
-data_root = "/home/amal.saqib/Downloads/CV703_Project/food-101/food-101/food-101/images"
+data_root = "/home/Downloads/CV703_Project/food-101/food-101/food-101/images"
 output_json = "food_images_captions_fixed.json"
 output_csv = "food_images_captions_fixed.csv"
 fixed_list_file = "fixed_image_list.txt"
