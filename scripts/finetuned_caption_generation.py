@@ -13,13 +13,13 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
 
 # === CONFIG ===
-data_root = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/food-101/food-101/food-101/images"
-output_json = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned.json"
-output_csv = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned.csv"
-fixed_list_file = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/synced_fixed_image_list.txt"
-model_path = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/instructblip_finetuned_foodcap_last6"
-checkpoint_json = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned_checkpoint.json"
-checkpoint_csv = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned_checkpoint.csv"
+data_root = "/home/Downloads/CV703_FoodGen_Project/food-101/food-101/food-101/images"
+output_json = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned.json"
+output_csv = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned.csv"
+fixed_list_file = "/home/Downloads/CV703_FoodGen_Project/synced_fixed_image_list.txt"
+model_path = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/instructblip_finetuned_foodcap_last6"
+checkpoint_json = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned_checkpoint.json"
+checkpoint_csv = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_5_FoodCap_6decoder/captions_finetuned_checkpoint.csv"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 max_images = 19497
