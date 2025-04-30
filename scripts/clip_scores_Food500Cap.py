@@ -9,8 +9,8 @@ from torch.utils.data import Dataset, DataLoader
 from datasets import load_dataset
 
 # === CONFIG ===
-output_scores_file = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_3_FoodCap_6decoder_subset/clip_scores_food500cap_test.json"
-captions_file = "/home/amal.saqib/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_3_FoodCap_6decoder_subset/captions_finetuned_food500_test.json"  # generated captions
+output_scores_file = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_3_FoodCap_6decoder_subset/clip_scores_food500cap_test.json"
+captions_file = "/home/Downloads/CV703_FoodGen_Project/finetuning_experiments/experiment_3_FoodCap_6decoder_subset/captions_finetuned_food500_test.json"  # generated captions
 batch_size = 32
 model_name = "ViT-L/14"
 threshold = 0.28
